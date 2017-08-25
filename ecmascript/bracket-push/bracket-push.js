@@ -4,12 +4,6 @@ const mapping = {
     '{':'}'
 };
 
-const reverse = {};
-Object.keys(mapping).map(key => {
-    const val = mapping[key];
-    reverse[val] = key
-});
-
 const left = Object.keys(mapping);
 const right = Object.values(mapping);
 
